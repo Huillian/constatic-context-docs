@@ -20,7 +20,5 @@ This repository solves that by offering:
 - Use as reference when building or extending projects with Constatic
 - Embed into tools that support documentation ingestion for AI
 
----
 
-## 📂 Structure
 
