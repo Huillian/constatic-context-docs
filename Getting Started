@@ -1,0 +1,47 @@
+Getting Started
+This guide provides the initial steps to set up a new Discord bot project using our framework.
+Prerequisites
+Before you begin, ensure you have the following requirements met:
+A code editor (Visual Studio Code is recommended).
+Node.js v20.11 or higher (or Bun).
+Basic knowledge of programming logic.
+Basic knowledge of JavaScript and TypeScript.
+Basic knowledge of the discord.js library.
+Scaffolding a New Project
+You can use our Command Line Interface (CLI) to quickly set up a new Discord bot project.
+Create a new folder for your project and open it in your terminal.
+Run the command below using your preferred package manager to launch the CLI:
+# Using npx (Node.js)
+npx constatic@latest
+
+# Using Bun
+bunx constatic@latest
+
+# Using Yarn
+yarn dlx constatic@latest
+
+# Using pnpm
+pnpm dlx constatic@latest
+
+Use code with caution.
+Sh
+Select the first option: Start a new Discord bot project.
+The CLI will then ask you a few questions to set up your project:
+Project name (the path to the folder)
+Database (optional)
+Extra features (optional)
+Install dependencies (optional)
+After answering the prompts, your project will be generated and ready for you to start developing.
+Project Configuration
+With the project generated, follow these steps to get your bot online.
+Open the .env file located in the root of your project directory.
+Add your bot's token to this file.
+For instructions on how to create a bot application and get a token, please visit the Discord Developer Portal.
+BOT_TOKEN=your_token_here
+Use code with caution.
+Dotenv
+After setting the token, you can run the project in development mode with the following command:
+npm run dev
+Use code with caution.
+Sh
+Your bot should now be online, and you can start developing your features
